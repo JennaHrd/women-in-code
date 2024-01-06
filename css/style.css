@@ -103,6 +103,7 @@ nav ul li {
 nav a:hover {
     boarder-bottom: one;
     transition: all 0.3s ease-in-out;
+    color: #090707;
 }
 
 footer {
@@ -117,5 +118,10 @@ footer {
 footer p {
     margin: 0 12rem;
     
+}
+
+#mydiv {
+    background-color: #E97FA3;
+
 }
 
