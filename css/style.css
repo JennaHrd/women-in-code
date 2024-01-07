@@ -64,15 +64,24 @@ header h2 {
 }
 
 
-a {
+ /** nav a {
     color:#0E0E0E;
     text-decoration: none;
 }
+*/
+nav a: hover {
 
-a {
-    hover:
 }
 
+nav a {
+    color: #0E0E0E; 
+   text-decoration: none;
+    transition: color 0.1s ease; 
+}
+
+nav a:hover {
+    color: #f7f0f0; 
+}
 
 
 nav {
@@ -100,10 +109,16 @@ nav ul li {
     margin: 15px;
 }
 
-nav a:hover {
+/*nav a:hover {
     boarder-bottom: one;
     transition: all 0.3s ease-in-out;
     color: #090707;
+}
+*/
+nav a:hover {
+    border-bottom: one;
+    transition: all 0.3s ease-in-out;
+    color: #FDF2E4;
 }
 
 footer {
